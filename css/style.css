@@ -1,0 +1,194 @@
+*{
+  background: #A9A9A9
+}
+.head{
+  background-color: #FFEBCD;
+  position: absolute;
+  left: 500px;
+  top: 150px;
+  width: 200px;
+  height: 200px;
+  border-radius: 40%;
+}
+.eye{
+  background-color: #FFF;
+  position: absolute;
+  left: 530px;
+  top: 210px;
+  width: 50px;
+  height: 20px;
+  border-radius: 40%;
+}
+.eyeball{
+  background-color: Black;
+  position: absolute;
+  left: 545px;
+  top: 210px;
+  width:20px;
+  height:20px;
+  border-radius: 100%;
+}
+.eye1{
+  background-color: #FFF;
+  position: absolute;
+  left: 615px;
+  top: 210px;
+  width: 50px;
+  height: 20px;
+  border-radius: 40%;
+}
+.eyeball1{
+  background-color: Black;
+  position: absolute;
+  left: 630px;
+  top: 210px;
+  width:20px;
+  height:20px;
+  border-radius: 100%;
+}
+.mouth1{
+  background-color: Pink;
+  position: absolute;
+  left: 575px;
+  top: 290px;
+  width:50px;
+  height:10px;
+  border-radius: 30%;
+}
+.mouth2{
+  background-color: Pink;
+  position: absolute;
+  left: 575px;
+  top: 305px;
+  width:50px;
+  height:10px;
+  border-radius: 30%;
+  animation-name: mouth2;
+  animation-direction: alternate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.hair1{
+  background-color: Black;
+  position: absolute;
+  left: 498px;
+  top: 120px;
+  width:205px;
+  height:70px;
+  border-radius: 30%;
+  animation-name: hair3;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.hair2{
+  background-color: Black;
+  position: absolute;
+  left: 490px;
+  top: 130px;
+  width:40px;
+  height:120px;
+  border-radius: 40%;
+  z-index: -1;
+  animation-name: hair3;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.hair3{
+  background-color: Black;
+  position: absolute;
+  left: 670px;
+  top: 130px;
+  width:40px;
+  height:120px;
+  border-radius: 40%;
+  z-index: -1;
+  animation-name: hair3;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.nose{
+  background-color: pink;
+  position: absolute;
+  left: 590px;
+  top: 230px;
+  width:15px;
+  height:50px;
+  border-radius: 40%;
+}
+.nose2{
+  background-color: pink;
+  position: absolute;
+  left: 583px;
+  top: 265px;
+  width:30px;
+  height:15px;
+  border-radius: 40%;
+}
+.nose2:hover{
+  transform: scale(1.5,1.5);
+}
+@keyframes hair1{
+  40%{
+    background-color: #FFD700;
+  }
+  75%{
+    background-color: #9400D3;
+  }
+  100%{
+    background-color: #E6E6FA;
+  }
+}
+@keyframes hair2{
+  40%{
+    background-color: #FFD700;
+  }
+  75%{
+    background-color: #9400D3;
+  }
+  100%{
+    background-color: #E6E6FA;
+  }
+}
+@keyframes hair3{
+  40%{
+    background-color: #FFD700;
+  }
+  75%{
+    background-color: #9400D3;
+  }
+  100%{
+    background-color: #E6E6FA;
+  }
+}
+@keyframes mouth2{
+  0%{
+    top: 305px;
+  }
+  50%{
+    top: 320px;
+  }
+  100%{
+    top: 300px;
+  }
+}
+.eyebrow1{
+  background-color: Black;
+  position: absolute;
+  left: 530px;
+  top: 200px;
+  width: 50px;
+  height: 5px;
+  border-radius: 40%;
+}
+.eyebrow2{
+  background-color: Black;
+  position: absolute;
+  left: 615px;
+  top: 200px;
+  width: 50px;
+  height: 5px;
+  border-radius: 40%;
+}
